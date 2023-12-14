@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scaleable=no">
+    <link rel="stylesheet" href="styles.css">
+    <title>Consistency Tracker</title>
+</head>
+<body>
+    <div class="container">
+        <h1><img src="title.png"></h1>
+        <form id="taskForm">
+            <label for="taskInput">What did you do?</label>
+            <input type="text" id="taskInput" maxlength="50" placeholder="Got laundry done!" required>
+            <button type="button" onclick="addTask()">Add Task</button>
+        </form>
+        <ul id="taskList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
